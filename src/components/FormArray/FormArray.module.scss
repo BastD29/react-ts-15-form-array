@@ -1,0 +1,27 @@
+.form-array {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 16px;
+
+  width: 300px;
+  padding: 16px;
+
+  &__inputs {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    grid-gap: 8px;
+
+    // .input-group {
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-items: center;
+    //   grid-gap: 8px;
+    // }
+
+    input {
+      width: 100%;
+    }
+  }
+}

@@ -1,9 +1,9 @@
-import Test1 from "./components/Test1/Test1";
+import FormArray from "./components/FormArray/FormArray";
 
 export default function App() {
   return (
     <>
-      <Test1 />
+      <FormArray />
     </>
   );
 }
